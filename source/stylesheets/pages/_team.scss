@@ -1,32 +1,30 @@
+#team {
+    background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%);
+    font-family: "Varela", "Helvetica", "sans-serif";
 
-body {
-  background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%);
-  font-family: "Varela", "Helvetica", "sans-serif";
-}
+  .wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.wrapper {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .user {
+    text-align: center;
+    padding: 5px 5px;
+  }
 }
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-top: 50px;
-}
-.avatar {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-.user {
-  text-align: center;
-  padding: 5px 5px;
-}
-

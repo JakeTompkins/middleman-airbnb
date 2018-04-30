@@ -1,11 +1,13 @@
-<div class="wrapper">
-  <h1>This page made by</h1>
-  <div class="container">
-    <% [{ image: "https://avatars3.githubusercontent.com/u/36250865?v=4", name: "Jake" }, { image: "https://avatars1.githubusercontent.com/u/37237153?v=4)", name: "Jane" }].each do |hash| %>
-      <div class="user">
-        <%= image_tag hash[:image], class: "avatar" %>
-        <h3><%= hash[:name] %></h3>
-      </div>
-    <% end %>
+<div id="team">
+  <div class="wrapper">
+    <h1>This page made by</h1>
+    <div class="container">
+      <% [{ image: "https://avatars3.githubusercontent.com/u/36250865?v=4", name: "Jake" }, { image: "https://avatars1.githubusercontent.com/u/37237153?v=4)", name: "Jane" }].each do |hash| %>
+        <div class="user">
+          <%= image_tag hash[:image], class: "avatar" %>
+          <h3><%= hash[:name] %></h3>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>
